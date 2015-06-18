@@ -1,0 +1,283 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+
+<link rel="stylesheet" href="themes/chela.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documento sin título</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="imagen.css" rel="stylesheet" type="text/css">
+
+
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+
+<body> 
+
+  <div data-role="page" id="page">
+	<div data-role="header">
+		<h1>CHEVELANDIA</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+		  <li><a href="#page2" data-transition="slidedown">Grupo Modelo</a></li>
+          <li><a href="#page3" data-transition="pop">Cuauhtémoc Moctezuma</a></li>
+		  <li><a href="#page4" data-transition="flip">Cerveza Homero</a></li>
+          <li><a href="#ayuda" data-transition="slideup">AYUDA</a></li>
+		</ul>
+    <img src="chevelandia.png"> 		
+	</div>
+    <div data-role="footer" data-position="fixed">
+		<h4>QUE ESTO QUE EL OTRO ?</h4>
+	</div>
+  </div>
+
+ <div data-role="page" id="page2">
+   <div data-role="header">
+	 <h1>GRUPO MODELO</h1>
+     <a href="#ayuda" data-role="button" data-theme="b">
+     Ayuda
+     </a>
+     <span style="font:12pt Arial;"> Da click aquí </span>   
+   </div>
+   <div data-role="content" style="font:15pt 'Comic Sans MS', cursive">	
+    <div data-role="collapsible-set">
+      <div data-role="collapsible" data-collapsed="true">
+       <h1>Modelo especial</h1>
+       <p> 
+       Es una cerveza tipo pilsner, muy diferente, llena de actitud e imagen. En 2010 se cambió su imagen. Así, la nueva imagen de Modelo Especial refleja la fortaleza del león, símbolo de Grupo Modelo, el orgullo que la distingue por su gran calidad, el reconocimiento a una trayectoria de 85 años y una tradición de gran sabor y cuerpo.
+       </p>
+      </div>
+       
+      <div data-role="collapsible" data-collapsed="true">
+       <h1>Corona Extra</h1>
+       <p> 
+       Más conocida como Corona (o Coronita en España). Se ha constituido como la cerveza más vendida en México y a su vez es la primera cerveza de importación en los Estados Unidos. Es una bebida del tipo pilsener que comenzó a elaborarse en el año de 1925 en la planta de la Cervecería Modelo en la Ciudad de Zacatecas.
+       </p>
+      </div>  
+       
+      <div data-role="collapsible" data-collapsed="true">
+       <h1>Leon</h1>
+       <p> 
+       Es una cerveza tipo munich, de color ámbar oscuro, con gran aroma y cuerpo, en la que se mezclan agradable dulzura y suave amargor, acompañados de una blanca espuma. León es la cerveza oscura para gente joven y se ha convertido en una nueva opción de cerveza divertida y con un gran sabor. Cerveza León nació a principios del siglo XX.
+       </p>
+      </div> 
+      <img src="modelo.jpg">       
+	 </div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+
+<div data-role="navbar" data-iconpos="right">
+     <ul>
+      <li> <a href="#page3" data-transition="pop" data-icon="info"> Cuauhtémoc </a> </li>
+      <li> <a href="#page4" data-transition="flip" data-icon="grid"> Homero </a> </li>
+      <li> <a href="#page" data-transition="slideup" data-icon="star"> Regresa </a> </li>
+     </ul>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>CUAUHTÉMOC MOCTEZUMA</h1>
+        <a href="#ayuda" data-role="button" data-theme="b">
+     Ayuda
+     </a>
+     <span style="font:12pt Arial;"> Da click aquí </span>
+        
+	</div>
+	<div data-role="content" style="font:13pt 'Arial Black', Gadget, sans-serif">	
+
+<div data-role="collapsible-set">
+       <div data-role="collapsible" data-collapsed="true">
+       <h1>Heineken Pilsener</h1>
+       <p> 
+       Conocida simplemente como Heineken, es una cerveza con 5,0% alc. vol., elaborada por la cervecería neerlandesa Heineken International. La cerveza lager Heineken fue elaborada en 1873 por Gerard Adriaan Heineken. En 1886, el Dr. H. Elion descubrió la levadura tipo "A", que le da el sabor característico a esta cerveza.
+       </p>
+ </div>
+       
+ <div data-role="collapsible" data-collapsed="true">
+       <h1>Tecate</h1>
+       <p> 
+       Nació en 1944 y su nombre alude a la ciudad del mismo nombre, en Baja California. En 1954 la cervecera Tecate fue adquirida por Cervecería Cuauhtémoc quien proyectó el desarrollo de la cerveza en todo el país. Es una marca que se caracteriza por la innovación en sus empaques; fue la primera cerveza en lata en México.
+       </p>
+ </div>  
+       
+ <div data-role="collapsible" data-collapsed="true">
+       <h1>XX</h1>
+       <p> 
+       Una cerveza clara y suave al paladar, DOS Equis (XX) Lager derivada originalmente a partir de XX ámbar en 1984, esta cerveza moderna en su distintiva botella verde goza de altas cuotas de mercado en centros turísticos y cruceros en el Caribe. En 1996 esta cerveza ganó el premio de oro en la categoría "European Style Pilsner" en la copa mundial de la cerveza.
+       </p>
+ </div>            
+	
+<img src="moctezuma.png">
+    
+    </div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+
+<div data-role="navbar" data-iconpos="right">
+     <ul>
+      <li> <a href="#page2" data-transition="slidedown" data-icon="info"> Modelo </a> </li>
+      <li> <a href="#page4" data-transition="flip" data-icon="grid"> Homero </a> </li>
+      <li> <a href="#page" data-transition="slideup" data-icon="star"> Regresa </a> </li>
+     </ul>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>CERVEZA HOMERO</h1>
+        <a href="#ayuda" data-role="button" data-theme="b">
+     Ayuda
+     </a>
+     <span style="font:12pt Arial;"> Da click aquí </span>
+        
+	</div>
+	<div data-role="content" style="font:15pt Verdana, Geneva, sans-serif">	
+
+<div data-role="collapsible-set">
+       <div data-role="collapsible" data-collapsed="true">
+       <h1>Dark</h1>
+       <p> 
+       Homero Dark: Una exquisita cerveza de trigo negra, de gran carácter, buena espuma y notas cítricas, que mezcla lo mejor de las dunkel weizen alemanas con la diversión de México y América Cerveza Artesanal Estilo: DUNKEL WEIZEN Fermentación: ALE Color: NEGRA 7% Alc. Vol. Temp. para servir: 6ºC Salud!
+       </p>
+ </div>
+       
+ <div data-role="collapsible" data-collapsed="true">
+       <h1>Coffee</h1>
+       <p> 
+       Homero Coffee: la única cerveza mexicana que puede disfrutarse fría o al tiempo. "Siguiendo la tradición británica de las english brown coffees, pero con el toque de México y América que caracteriza a nuestra marca, elaboramos una de las joyas de la corona: la Homero Coffee, una cerveza artesanal 100% mexicana y orgullosamente poblana.
+       </p>
+ </div>  
+       
+ <div data-role="collapsible" data-collapsed="true">
+       <h1>Claaara</h1>
+       <p> 
+       Homero Claaara: Debido a su composición clara, es ideal para tomarse fría y acompañar platillos como ensaladas y snacks. Su principal característica es su sabor a malta dulce, lo que la hace poco invasiva al paladar. Cerveza Artesanal estilo Blond Ale. Fermentación: Ale Color: Dorado 5.2% Volumen de Alcohol.
+       </p>
+ </div> 
+ 
+ <img src="homero.jpg">
+ </div>
+ </div>
+ 
+	<div data-role="footer" data-position="fixed">
+
+<div data-role="navbar" data-iconpos="right">
+     <ul>
+      <li> <a href="#page2" data-transition="slidedown" data-icon="info"> Modelo </a> </li>
+      <li> <a href="#page3" data-transition="flip" data-icon="grid"> Cuauhtémoc </a> </li>
+      <li> <a href="#page" data-transition="slideup" data-icon="star"> Regresa </a> </li>
+     </ul>
+</div>
+
+</div>
+</div>
+
+<div data-role="page" id="ayuda">
+
+    <div data-role="header">
+		<h1>PRECAUCIÓN</h1>
+        
+        <a data-direction="reverse" data-rel="back"> 
+        Atras
+        </a>
+        
+	</div>
+	
+    <div data-role="content">
+    
+<table data-role="table">
+     <tbody>    
+     <thead>
+      <tr>
+       <th>Consumo</th>
+       <th>de cerveza</th>
+       <th>(litros /</th>
+       <th>habitante)</th>
+      </tr
+      ><tr>
+       <th>País</th>
+       <th>2012</th>
+       <th>2013</th>
+       <th>2014</th>
+      </tr>
+      <tr>
+       <th>Argentina</th>
+       <th>40</th>
+       <th>45</th>
+       <th>50</th>
+      </tr>
+      <tr>
+       <th>Brasil</th>
+       <th>50</th>
+       <th>55</th>
+       <th>60</th>
+      </tr>     
+      <tr>
+       <th>Chile</th>
+       <th>60</th>
+       <th>65</th>
+       <th>70</th>
+      </tr>     
+      <tr>
+       <th>Colombia</th>
+       <th>70</th>
+       <th>75</th>
+       <th>80</th>
+      </tr>
+            <tr>
+       <th>México</th>
+       <th>80</th>
+       <th>85</th>
+       <th>90</th>
+      </tr>
+      <tr>
+       <th>Panamá</th>
+       <th>90</th>
+       <th>95</th>
+       <th>100</th>
+      </tr>
+      <tr>
+       <th>Perú</th>
+       <th>100</th>
+       <th>105</th>
+       <th>110</th>
+      </tr>     
+      <tr>
+       <th>Venezuela</th>
+       <th>110</th>
+       <th>115</th>
+       <th>120</th>
+      </tr>
+    </thead>       
+     </tbody>
+    </table>
+    
+    <img src="chela.jpg">
+    </div>
+ <div data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="right">
+     <ul>
+      <li> <a href="#ayuda" data-transition="pop" data-icon="info">IUTH</a> </li>
+      <li> <a href="#ayuda" data-transition="flip" data-icon="grid">MRC</a> </li>
+      <li> <a href="#ayuda" data-transition="slideup" data-icon="star">IMGF</a> </li>
+     </ul>
+  </div>
+ </div>    
+ 
+
+</div>
+
+</body>
+</html>
